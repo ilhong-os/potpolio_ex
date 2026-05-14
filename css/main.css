@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,
+li {
+    list-style: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+/* 공통영역 */
+.inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: rgb(255, 223, 223); */
+}
+/* 전체레이아웃 */
+/* 상단 */
+.header {
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+.header-top {
+    width: 100%;
+}
+.util {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+.util a:hover {
+    text-decoration: underline;
+}
+.header-bt {
+    display: flex;
+    justify-content: space-between;
+}
+.gnb {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+.gnb li {
+    width: calc(100% / 5);
+    text-align: center;
+}
+.gnb li a {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.gnb li:hover a {
+    background-color: #333;
+    color: #fff;
+}
+/* 비주얼 */
+figure {
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    
+    background-color: #333;
+}
+/* video */
+figure video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: 0.3;
+}
+/* 비디오 내용 */
+.video-txt{
+    position: relative;
+    padding-top: 17%;
+    color: #fff;
+
+}
+.video-txt h2{
+    font-size: 120px;
+
+
+}
+.video-txt p{
+    width: 50%;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.video-txt a{
+    display: block;
+    width: 300px;
+    padding:  10px 0;
+    text-align: center;
+    color: #fff;
+  
+    border: 1px solid #fff;
+}
